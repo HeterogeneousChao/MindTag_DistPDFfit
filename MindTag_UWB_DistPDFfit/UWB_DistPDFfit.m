@@ -1478,7 +1478,7 @@ hold on;
 hideal = plot(PlotAxes_t, PlotAxesIdeal, '-sg');
 
 grid on;
-axis([0, PlotAxesLen, 0, 5000]);
+axis([0, PlotAxesLen, 0, 11000]);
 
 legend( 'Real', 'Ideal');
 
@@ -1498,7 +1498,7 @@ legend('Real', 'Ideal');
 
 grid on;
 
-axis([0, PlotAxesLen, 0, 5000]);
+axis([0, PlotAxesLen, 0, 11000]);
     
     
 guidata(hObject, handles);

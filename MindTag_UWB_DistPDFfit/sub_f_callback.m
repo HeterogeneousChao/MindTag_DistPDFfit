@@ -20,7 +20,8 @@ function sub_f_callback(s, BytesAvailable, handles, edit)
             tmp_index = tmp_index + 1;
             
             % tmp_val = hex2dec(data(3));
-            tmp_val = hex2dec(out(1,14:22));
+            %tmp_val = hex2dec(out(1,14:22));
+            tmp_val = hex2dec(out(1,22:31));
             
             if (start_record == 1)
                record_dat = [record_dat, [tmp_val; hideal_value]];
