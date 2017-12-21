@@ -1,9 +1,9 @@
  
-  This is a gesture  Attitude Estimator real time display app, and support save angle date to txt file that can be used to offline analyse. 
+  This is a gui tool for collect UWB distance data from serial port, it support display the distance data in real time and support curvefit the probability distribution function of these data, save the date to txt file that can be used to offline analyse. 
       
       Develop with matlab GUI. 
        
-         Communciate with the detector MCU by serial port.
+         Communciate with the UWB module by serial port.
 	  
 		 transmit procoto:
 
